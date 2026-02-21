@@ -1,0 +1,85 @@
+
+body {
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:beige;
+color: rgb(58, 26, 7);
+}
+
+.tittle {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 65px;
+    padding: 8px 24px;
+    font-weight: 900;
+}
+
+.subtittle {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 45px;
+    padding: 8px 24px;
+    font-style: normal;
+}
+
+div {
+    padding : 0px 25px;
+    font-size: 18px;
+}
+
+.cookies {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.image {
+float: left;
+}
+
+ .description {
+display: inline;
+font-style: italic;
+text-align: center;
+font-size: 35px;
+margin-right: 25px;
+width: 800px;
+padding-left: 200px;
+ }
+
+ .container {
+    display: flex;
+    align-items: top;
+    margin-top: 30px;
+    margin: 40px;
+ }
+
+.ingredients {
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    list-style-position: inside;
+    width: 400px;
+}
+
+.list strong {
+    font-style: normal;
+}
+
+.steps {
+    font-size: 30px;
+    list-style-position: inside;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 900;
+    background: rgb(58, 26, 7);
+    color: beige;
+    padding: 15px; 
+}
